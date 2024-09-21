@@ -19,12 +19,6 @@ namespace ChaveFacil
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (textBox1.Text == null)
-            {
-                MessageBox.Show("Este campo não pode ser vazio");
-                textBox1.Focus();
-                return;
-            }
             string a;
             a = textBox1.Text;
             MessageBox.Show(a);

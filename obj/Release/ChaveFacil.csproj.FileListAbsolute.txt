@@ -1,0 +1,7 @@
+D:\projeto C#\ChaveFacil\obj\Release\ChaveFacil.csproj.AssemblyReference.cache
+D:\projeto C#\ChaveFacil\obj\Release\ChaveFacil.csproj.SuggestedBindingRedirects.cache
+D:\projeto C#\ChaveFacil\obj\Release\ChaveFacil.FrmChaveFacil.resources
+D:\projeto C#\ChaveFacil\obj\Release\ChaveFacil.Form2.resources
+D:\projeto C#\ChaveFacil\obj\Release\ChaveFacil.Properties.Resources.resources
+D:\projeto C#\ChaveFacil\obj\Release\ChaveFacil.csproj.GenerateResource.cache
+D:\projeto C#\ChaveFacil\obj\Release\ChaveFacil.csproj.CoreCompileInputs.cache
