@@ -1,6 +1,6 @@
-namespace ChaveFacil
+﻿namespace ChaveFacil
 {
-    partial class FrmChaveFacil
+    partial class Form2
     {
         /// <summary>
         /// Required designer variable.
@@ -28,74 +28,46 @@ namespace ChaveFacil
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnRtrS1 = new System.Windows.Forms.Button();
-            this.btnDvlrS1 = new System.Windows.Forms.Button();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.lblS1 = new System.Windows.Forms.Label();
-            this.panel1.SuspendLayout();
+            this.button1 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // btnRtrS1
+            // button1
             // 
-            this.btnRtrS1.Location = new System.Drawing.Point(11, 74);
-            this.btnRtrS1.Name = "btnRtrS1";
-            this.btnRtrS1.Size = new System.Drawing.Size(75, 23);
-            this.btnRtrS1.TabIndex = 0;
-            this.btnRtrS1.Text = "RETIRAR";
-            this.btnRtrS1.UseVisualStyleBackColor = true;
-            this.btnRtrS1.Click += new System.EventHandler(this.btnRtrS1_Click);
+            this.button1.Location = new System.Drawing.Point(12, 12);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // btnDvlrS1
+            // label1
             // 
-            this.btnDvlrS1.Enabled = false;
-            this.btnDvlrS1.Location = new System.Drawing.Point(91, 73);
-            this.btnDvlrS1.Name = "btnDvlrS1";
-            this.btnDvlrS1.Size = new System.Drawing.Size(75, 23);
-            this.btnDvlrS1.TabIndex = 1;
-            this.btnDvlrS1.Text = "DEVOLVER";
-            this.btnDvlrS1.UseVisualStyleBackColor = true;
-            this.btnDvlrS1.Click += new System.EventHandler(this.btnDvlrS1_Click);
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(175, 21);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(35, 13);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "label1";
             // 
-            // panel1
+            // Form2
             // 
-            this.panel1.BackColor = System.Drawing.Color.Lime;
-            this.panel1.Controls.Add(this.lblS1);
-            this.panel1.Controls.Add(this.btnRtrS1);
-            this.panel1.Controls.Add(this.btnDvlrS1);
-            this.panel1.Location = new System.Drawing.Point(34, 55);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(177, 108);
-            this.panel1.TabIndex = 2;
-            // 
-            // lblS1
-            // 
-            this.lblS1.AutoSize = true;
-            this.lblS1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
-            this.lblS1.Location = new System.Drawing.Point(57, 14);
-            this.lblS1.Name = "lblS1";
-            this.lblS1.Size = new System.Drawing.Size(70, 17);
-            this.lblS1.TabIndex = 2;
-            this.lblS1.Text = "SALA 01";
-            // 
-            // FrmChaveFacil
-            // 
-            this.ClientSize = new System.Drawing.Size(918, 436);
-            this.Controls.Add(this.panel1);
-            this.Name = "FrmChaveFacil";
-            this.Text = "ChaveFacil";
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(463, 450);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.button1);
+            this.Name = "Form2";
+            this.Text = "Form2";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
-
         #endregion
 
-        private System.Windows.Forms.Button btnRtrS1;
-        private System.Windows.Forms.Button btnDvlrS1;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label lblS1;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label1;
     }
 }
-
